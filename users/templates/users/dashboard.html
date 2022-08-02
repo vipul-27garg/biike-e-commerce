@@ -1,0 +1,125 @@
+<!-- Carousel wrapper -->
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+    <!-- Inner -->
+    <div class="container">
+        <div class="row">
+            <div class="carousel-inner py-4">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img width=500 height=200  src="{% static 'users/image/bike1.jpg' %}"
+                                        class="card-img-top" alt="Waterfall" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img width=500 height=200  src="{% static 'users/image/bike2.jpg' %}"
+                                        class="card-img-top" alt="Sunset Over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img width=500 height=200  src="{% static 'users/image/bike3.jpg' %}"
+                                        class="card-img-top" alt="Sunset over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel-inner py-4">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img width=500 height=200 src="{% static 'users/image/bike4.jpg' %}"
+                                        class="card-img-top" alt="Waterfall" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img width=500 height=200 src="{% static 'users/image/bike5.jpg' %}"
+                                        class="card-img-top" alt="Sunset Over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img width=500 height=200 src="{% static 'users/image/bike6.jpg' %}"
+                                        class="card-img-top" alt="Sunset over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+
+{% endblock content %}
